@@ -4,3 +4,4 @@
 *E-mail: ant.minich@gmail.com*
 *[Linkedin](https://www.linkedin.com/in/antonminich/)*
 *[GitHub](https://github.com/AntonMinich)*
+**Skills**
