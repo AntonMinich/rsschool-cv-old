@@ -6,10 +6,10 @@ E-mail: *ant.minich@gmail.com*
 *[GitHub](https://github.com/AntonMinich)*  
        
 ## Skills   
-HTML/CSS
-Javascript
-Bootstrap
-Figma   
+HTML/CSS   
+Javascript   
+Bootstrap   
+Figma     
 ## About me   
 - I analyze customer experience, collect product requirements, work with changes, communicate with developers and customers.
 - I have experience in recruiting. Personally selected personnel of all levels, including top management.
