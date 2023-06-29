@@ -2,26 +2,28 @@
 ## CONTACTS     
 Mobile phone: *+375447574025*    
 E-mail: *ant.minich@gmail.com*    
+*Discord: Anton (@AntonMinich)*      
 *[Linkedin](https://www.linkedin.com/in/antonminich/)*    
-*[GitHub](https://github.com/AntonMinich)*  
+*[GitHub](https://github.com/AntonMinich)*     
        
 ## Skills   
 HTML/CSS   
 Javascript   
 Bootstrap   
-Figma     
+Figma    
+
 ## About me   
 - I analyze customer experience, collect product requirements, work with changes, communicate with developers and customers.
 - I have experience in recruiting. Personally selected personnel of all levels, including top management.
-- Consistent, open, autonomous. Getting rid of the "monkeys", I do not like manipulation. I make decisions wisely.    
-## Experience   
+- Consistent, open, autonomous. Getting rid of the "monkeys", I do not like manipulation. I make decisions wisely.   
+
+## Experience     
 **Activelizing**      
 09.2022 - current time       
 *Business analyst*        
 **Servolux**       
 11.2019 – 01.2022        
 *Recruiter*        
-
 
 ## Code Example
 ```javascript
@@ -38,8 +40,14 @@ console.log(secondBigNumber([52, 18, 11, 16, 10]));
 ```
 
 ## Education   
-**Institute of the Border Service of the Republic of Belarus**  
-**TeachMeSkills**      
+- **Institute of the Border Service of the Republic of Belarus**   
+*border control department* 
+- **IT-Academy**
+*[HTML/CSS](https://antonminich.github.io/project_5/#)*     
+- **TeachMeSkills**      
 *Business analyst*     
-**LLC BukhBel**      
-*Accounting*   
+- **LLC BukhBel**      
+*Accounting*     
+##Languages  
+- Russian - native speaker
+- English - A2
