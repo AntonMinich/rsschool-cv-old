@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="center">
+                <ul>
+                    <li>
+                        <a href="#about-me">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#project">Project</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="headline">
+                <div class="left-block">
+                    <img src="./image/foto.jpeg" alt="my-foto">
+                </div>
+                <div class="right-block">
+                    <div class="name-job">
+                        <h1>Anton Minich</h1>
+                        <p>Junior frontend developer</p>
+                    </div>
+                    <div class="my-contacts" id="contacts">
+                        <ul>
+                            <li>
+                                <a href="tel:+375447574025">
+                                    <img src="./image/mobile.svg" alt="icon-mobile">
+                                    <p>+375447574025</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:ant.minich@gmail.com">
+                                    <img src="./image/e-mail.svg" alt="icon-email">
+                                    <p>ant.minich@gmail.com</p></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/antonminich/" target="_blank">
+                                    <img src="./image/linkedin.svg" alt="icon-linkedin">
+                                    <p>LinkedIn</p>
+                                </a>
+                                
+                             </li>
+                            <li>
+                                <a href="https://github.com/AntonMinich" target="_blank">
+                                    <img src="./image/github.svg" alt="icon-github">
+                                    <p>GitHub</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/N478Cpcz" target="_blank">
+                                    <img src="./image/discord.svg" alt="icon-dicord">
+                                    <p>Discord</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center">
+                <section class="about-me">
+                    <h2 id="about-me">About me</h2>
+                    <p> Now I work as a 1C business analyst in a leasing company. I analyze customer experience, collect product requirements, work with changes, communicate with developers and customers.<br>
+                    I have recruiting experience. Personally selected personnel of all levels, including top management.<br>
+                     Consistent, open, autonomous. Getting rid of the "monkeys", I do not like manipulation. I make decisions wisely.
+                    </p>
+                </section>
+            </div>
+
+            <div class="information center">
+                <div class="left-side">
+                    <div class="additional-information">
+                        <section class="skills">
+                            <h3 id="skills">Skills</h3>
+                            <ul>
+                                <li>HTML5/CSS3</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap</li>
+                                <li>Figma</li>
+                                <li>Git/GitHub</li>
+                            </ul>
+                        </section>
+                        <section class="languages">
+                            <h3 id="languages">Languages</h3>
+                            <p>Russian - native speaker</p>
+                            <p>English - A2</p>
+                        </section>
+                        <section class="education">
+                            <h3 id="education">Education</h3>
+                            <p class="organization">Institute of the Border Service of the Republic of Belarus</p>
+                            <p>Border control department</p>
+                            <p class="organization">TeachMeSkills</p>
+                            <p>Business analyst</p>
+                            <p class="organization">LLC BukhBel</p>
+                            <p>Accounting</p>
+                            <p class="organization">RS School</p>
+                            <p>
+                                <a href="https://rs.school/js/">JS/FE Pre-School 2023Q2</a>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            
+                <div class="right-side">
+                    <div class="basic-information">
+                        <section class="experience">
+                            <h3>Experience</h3>
+                            <p class="organization">Activelizing</p>
+                            <p class="work-time">09.2022 - current time</p>
+                            <p>Business analyst</p>
+                            <p class="organization">Servolux</p>
+                            <p class="work-time">11.2019 – 01.2022</p>
+                            <p>Recruiter</p>
+                        </section>
+                        <section class="code-example">
+                            <h3 id="code">Code Example</h3>
+                            <pre class="js-code">
+                                <code>
+                                    function secondBigNumber(arr){    
+                                        let result = arr.sort(function(a,b){     
+                                             return b-a;    
+                                        })    
+                                       return result[1];    
+                                    }
+
+                                    console.log(secondBigNumber([20, 80, 60, 40, 100]));    
+                                    console.log(secondBigNumber([29, 198, 72, 13, 122]));    
+                                    console.log(secondBigNumber([52, 18, 11, 16, 10]));
+                                </code>
+                            </pre>
+                        </section>
+                        <section class="project">
+                            <h3 id="project">Projects</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_1/" target="_blank">
+                                    <img src="./image/bitcoin.png" alt="project-bitcoin">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_2/" target="_blank">
+                                    <img src="./image/funhaus.png" alt="project-funhaus">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_3/" target="_blank">
+                                    <img src="./image/accessories.png" alt="project-accessories">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_4/" target="_blank">
+                                    <img src="./image/finsweet.png" alt="project-finsweet">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_5/" target="_blank">
+                                    <img src="./image/gastro-chef.png" alt="project-gastro-chef">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://antonminich.github.io/project_6/" target="_blank">
+                                    <img src="./image/nimbus.png" alt="project-nimbus">
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                 </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class= "my-github">
+                    <a href="https://github.com/AntonMinich" target="_blank">
+                        <img src="./image/github-2.svg" alt="icon-github">
+                        <p>My GitHub</p>
+                    </a>
+                </div>
+                <div class="year">
+                    <p>2023</p>
+                </div>
+                <div class="rs-school">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="icon-rs-school">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
