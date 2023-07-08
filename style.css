@@ -89,21 +89,24 @@ main .headline .my-contacts img {
     margin-right: 10px;
 }
 
-main .headline .my-contacts ul li a {
+main .headline .my-contacts ul li a{
+    display: flex;
+    align-items: center;
+}
+
+main .headline .my-contacts ul li a,
+header nav ul li a {
     text-decoration: none;
     color:black;
 }
 
-main .headline .my-contacts ul li img {
-    vertical-align: middle;
-}
-
-main .headline .my-contacts ul li img:hover {
+main .headline .my-contacts ul li a:hover img {
     transform: scale(1.4);
 }
 
 main .headline .my-contacts ul li a:hover,
-main .information .left-side .additional-information .education p a:hover {
+main .information .left-side .additional-information .education p a:hover,
+header nav ul li a:hover {
     color:rgb(232, 132, 17);
     font-weight: 700;
 }
@@ -202,17 +205,15 @@ main .information .right-side .basic-information .code-example .js-code .color-f
 main .information .right-side .basic-information .code-example .js-code .color-title-function {
     color:rgb(150, 143, 52);
 }
-main .information .right-side .basic-information .code-example .js-code .color-bracket {
-    color:rgb(130, 85, 18);
-}
+
 
 main .information .right-side .basic-information .code-example .js-code .color-params {
     color:rgb(15, 187, 170);
 }
 
-
-
-
+main .information .right-side .basic-information .code-example .js-code .color-fun {
+    color:rgb(163, 35, 116)
+}
 
 main .information .right-side .project ul {
     display: grid;
@@ -233,11 +234,12 @@ main .information .right-side .project ul li a img:hover {
     transform: scale(1.05);
 }
 
-footer {
+footer .footer{
     background-color: rgb(75, 73, 73);
     height: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 60px;
 }
 
 footer .my-github a img {
@@ -262,4 +264,19 @@ footer .my-github {
 
 footer .rs-school img {
     width: 100px;
+}
+
+footer .year {
+    align-self: center;
+    justify-self: center;
+}
+
+footer .year p {
+    color:bisque;
+    font-size: 18px;
+}
+
+footer .rs-school {
+    align-self: center;
+    justify-self: right;
 }
