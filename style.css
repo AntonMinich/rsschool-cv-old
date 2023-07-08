@@ -102,9 +102,164 @@ main .headline .my-contacts ul li img:hover {
     transform: scale(1.4);
 }
 
-main .headline .my-contacts ul li a:hover {
+main .headline .my-contacts ul li a:hover,
+main .information .left-side .additional-information .education p a:hover {
     color:rgb(232, 132, 17);
     font-weight: 700;
 }
 
+main .about-me h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: double;
+}
 
+main .about-me p {
+    font-size:22px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+main .information {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main .information .left-side {
+    border-right: 3px solid rgb(237, 129, 129);
+    width: 30%;
+}
+
+main .information .right-side {
+    width: 70%;
+}
+
+main .information .left-side .additional-information h3,
+main .information .right-side .basic-information h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+main .information .left-side .additional-information p,
+main .information .left-side .additional-information ul li,
+main .information .right-side .basic-information p {
+    font-size:22px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+main .information .left-side .additional-information .skills,
+main .information .left-side .additional-information .languages,
+main .information .right-side .basic-information .experience {
+    margin-bottom: 25px;
+}
+
+main .information .right-side .basic-information .experience .organization,
+main .information .left-side .additional-information .education .organization {
+    font-weight: 700;
+}
+
+main .information .right-side .basic-information .experience .work-time,
+main .information .left-side .additional-information .education p:nth-child(odd) {
+    font-style: italic;
+}
+
+main .information .right-side .basic-information .experience p:nth-child(5),
+main .information .left-side .additional-information .education p:nth-child(even) {
+    margin-top: 15px;
+}
+
+main .information .left-side .additional-information .education p a {
+    text-decoration: none;
+    color:black;
+}
+
+main .information h3 {
+    background-color: rgb(188, 184, 184);
+    margin-bottom: 20px;
+}
+
+main .information .right-side .basic-information h3,
+main .information .right-side .basic-information p {
+    padding-left: 25px;
+}
+
+main .information .right-side .basic-information .code-example .js-code {
+    background: rgba(211, 210, 208, 0.923);
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .information .right-side .basic-information .code-example .js-code .color-function {
+    color:blueviolet;
+}
+
+main .information .right-side .basic-information .code-example .js-code .color-title-function {
+    color:rgb(150, 143, 52);
+}
+main .information .right-side .basic-information .code-example .js-code .color-bracket {
+    color:rgb(130, 85, 18);
+}
+
+main .information .right-side .basic-information .code-example .js-code .color-params {
+    color:rgb(15, 187, 170);
+}
+
+
+
+
+
+main .information .right-side .project ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 25px;
+}
+
+main .information .right-side .project ul li a img {
+    box-shadow: 0 0px 0px 2px rgba(60, 59, 59, 0.1);
+    object-fit: cover;
+    object-position: 0% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+main .information .right-side .project ul li a img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: rgb(75, 73, 73);
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .my-github a img {
+    width: 50px;
+}
+footer .my-github a {
+    display: flex;
+    align-items: center;  
+    text-decoration: none;
+    color:bisque;
+}
+
+footer .my-github a p {
+    padding-left: 15px;
+}
+
+footer .my-github {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+footer .rs-school img {
+    width: 100px;
+}
