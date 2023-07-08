@@ -34,6 +34,10 @@ header nav ul li {
     margin-right: 20px;
 }
 
+header nav ul li a {
+    font-size: 20px;
+}
+
 main .headline {
     display: flex;
     justify-content: space-between;
@@ -198,22 +202,6 @@ main .information .right-side .basic-information .code-example .js-code {
     margin-bottom: 25px;
 }
 
-main .information .right-side .basic-information .code-example .js-code .color-function {
-    color:blueviolet;
-}
-
-main .information .right-side .basic-information .code-example .js-code .color-title-function {
-    color:rgb(150, 143, 52);
-}
-
-
-main .information .right-side .basic-information .code-example .js-code .color-params {
-    color:rgb(15, 187, 170);
-}
-
-main .information .right-side .basic-information .code-example .js-code .color-fun {
-    color:rgb(163, 35, 116)
-}
 
 main .information .right-side .project ul {
     display: grid;
@@ -279,4 +267,9 @@ footer .year p {
 footer .rs-school {
     align-self: center;
     justify-self: right;
+}
+
+footer .rs-school:hover img {
+
+    transform: scale(1.1);
 }
